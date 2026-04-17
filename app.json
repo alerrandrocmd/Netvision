@@ -5,7 +5,6 @@
     "version": "1.0.0",
     "owner": "alerrandros-organization",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "sdkVersion": "50.0.0",
     "assetBundlePatterns": [
@@ -17,9 +16,6 @@
     },
     "android": {
       "package": "com.alerrandro.netvision",
-      "adaptiveIcon": {
-        "backgroundColor": "#020617"
-      },
       "permissions": [
         "INTERNET",
         "ACCESS_NETWORK_STATE",
