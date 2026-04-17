@@ -3,6 +3,7 @@
     "name": "NetVision Professional",
     "slug": "alerrandro-netvision",
     "version": "1.0.0",
+    "owner": "alerrandros-organization",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
