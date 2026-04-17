@@ -1,9 +1,14 @@
-"dependencies": {
-  "expo": "~50.0.0",
-  "react": "18.2.0",
-  "react-native": "0.73.2",
-  "lucide-react-native": "*",
-  "react-native-svg": "*",
-  "expo-network": "~6.0.0",
-  "expo-device": "~5.9.3"
+{
+  "name": "alerrandro-netvision",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "~50.0.0",
+    "react": "18.2.0",
+    "react-native": "0.73.2",
+    "lucide-react-native": "*",
+    "react-native-svg": "*",
+    "expo-network": "~6.0.0",
+    "expo-device": "~5.9.3"
+  }
 }
