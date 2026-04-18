@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "NetVision",
-    "slug": "netvision",
+    "name": "netVision",
+    "slug": "monitor-wifi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
