@@ -1,30 +1,40 @@
 {
   "expo": {
-    "name": "NetVision Professional",
-    "slug": "monitor-wifi",
+    "name": "NetVision",
+    "slug": "netvision",
     "version": "1.0.0",
-    "owner": "alerrandros-organization",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "sdkVersion": "50.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.alerrandro.netvision"
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0E1E"
     },
     "android": {
-      "package": "com.alerrandro.netvision",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A0E1E"
+      },
+      "package": "com.netvision.app",
       "permissions": [
-        "INTERNET",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_WIFI_STATE",
+        "CHANGE_WIFI_STATE",
         "ACCESS_NETWORK_STATE",
-        "ACCESS_WIFI_STATE"
+        "INTERNET"
       ]
     },
+    "plugins": [
+      "expo-network",
+      [
+        "expo-linear-gradient"
+      ]
+    ],
     "extra": {
       "eas": {
-        "projectId": "cc61d500-396e-414b-a389-b23d75f46554"
+        "projectId": "your-project-id-here"
       }
     }
   }
