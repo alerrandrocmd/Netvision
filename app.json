@@ -27,14 +27,11 @@
       ]
     },
     "plugins": [
-      "expo-network",
-      [
-        "expo-linear-gradient"
-      ]
+      "expo-linear-gradient"
     ],
     "extra": {
       "eas": {
-        "projectId": "your-project-id-here"
+        "projectId": "SEU_PROJECT_ID_AQUI"
       }
     }
   }
