@@ -26,9 +26,6 @@
         "INTERNET"
       ]
     },
-    "plugins": [
-      "expo-linear-gradient"
-    ],
     "extra": {
       "eas": {
         "projectId": "SEU_PROJECT_ID_AQUI"
