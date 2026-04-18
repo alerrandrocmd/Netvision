@@ -1,1 +1,0 @@
-// types.d.ts\n\ndeclare module 'react-native-sqlite-storage';\n\n// You can add more type declarations as needed for your project.
